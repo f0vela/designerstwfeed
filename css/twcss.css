@@ -1,0 +1,71 @@
+#twtbox {
+/*     width: 280px; */
+    font-family: 'Share', sans-serif;
+    font-size: 10px;
+    color: #333333;
+    background-color: #ffffff;
+    margin: 10px auto;
+/*
+    -moz-box-shadow:    0px 0px 10px 0px #303030;	
+    -webkit-box-shadow: 0px 0px 10px 0px #303030;	
+    box-shadow:         0px 0px 10px 0px #303030;
+*/
+}
+#twtbox_head { padding: 5px; background: #00BBF9; }
+	#twtbox_head img { box-shadow: none; float: left; margin-right: 5px; } 
+	#twtbox_head_name { 
+		font-size: 20px;
+		color: white;
+		width: 180px;
+		margin-left: 75px;
+		padding: 3px 0 2px;
+	}
+ 	#twtbox_head_subname { font-size: 12px; margin-left: 75px; color: #ffffff; }
+#twtbox_body {}
+.twjs_icons{
+	width: 100px;
+	float: right;
+	text-align: right;
+}
+	.twjs_icons img { box-shadow: none;}
+#twtbox_footer {padding: 20px; color: #a0a0a0;}
+#twtbox_footer a { color: #ee4444; text-decoration: none; }
+#twtbox_body .tweet {
+    margin: 0 auto;
+    padding: 5px;
+    border-bottom: 1px dotted #f0f0f0;
+    border-left: 5px solid #ffffff;
+    color: #a0a0a0;
+}
+
+#twtbox_body .tweettext {
+	clear: both;
+	
+}
+#twtbox_body .tweet:hover {
+    border-left: 5px solid #34bd31;
+    background-color: #f0f0f0;
+}
+
+#twtbox_body .tweet a {
+    text-decoration: none;
+    color: #00b9ff;
+}
+
+#twtbox_body a.twtr-atreply{ color: #34bd31 }
+ 
+#twtbox_body .tweet a:hover {
+    text-decoration: underline;
+}
+ 
+#twtbox_body .tweet .time {
+    font-size: 10px;
+    color: #404040;
+    width: 150px; 
+    float: left;
+}
+
+#tweetbody{
+	clear: both;
+	
+}
